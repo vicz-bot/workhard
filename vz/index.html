@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .nav-bar-landing {
+            background-color: #FFFFFF;
+            /* padding: 20px 179px 24px 180px; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 180px;
+            padding-right: 184px;
+        }
+        /* .vasiti-logo {
+            margin-left: 70px;
+        } */
+        .nav-link {
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 15.23px;
+            letter-spacing: 0.05em;
+            text-align: center;
+            color: #242120;
+        }
+        .signup{
+            background: #FF5C00;
+            box-shadow: 1px 4px 8px 0px #EF580333;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 15.23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #FFFFFF;
+
+        }
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1440px;
+        }
+        .container1{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 892px;
+        }
+        body {
+            margin: 0;
+            background: white;
+        }
+        .nav-group {
+            display: flex;
+            gap: 20px;
+            
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+            
+        }
+        .sub-nav {
+           
+           background-color:#FFFFFF ;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           margin-left: auto;
+            margin-right: auto;
+            gap: 30px;
+       }
+        .section1,.section2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 180px;
+            padding-right: 184px;
+            padding-top: 28px;
+        }
+        p {
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: 0.02em;
+            text-align: left;
+
+        }
+        .three{
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #000;
+            width: 50%;
+        }
+        .section2 {
+            background-image: url(Rectangle\ 17.png);
+            gap: 100px;             
+        }
+        h2{
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 38.73px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            color: #fff;
+        }
+        .one {
+            width: 50%;
+        }
+        .one img{
+            width: 100%;
+        }
+        .section2 p{
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #fff;
+        }
+        .two{
+            color: #fff;
+            width: 100%;
+            /* padding: 10px 0px 10px 62px; */
+            
+        }
+        
+        .two img, .um img{
+            width: 100%;
+        }
+        .ano {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: 0.2em;
+            text-align: left;
+            color: #fff;
+            border: 1px solid #FF5C00
+        }
+        .an {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: 0.2em;
+            text-align: left;
+        }
+        
+        .qrt {
+            font-family: Inter;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 15.73px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #fff;
+            border: 1px solid #FFFFFF66;
+            width: 76px;
+        }
+        .ano{
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: 0.2em;
+            text-align: left;
+            text-align: center;
+
+        }
+        .wtn{
+            display:flex;
+            justify-content: space-between;
+            padding-top: 75px;
+            padding-left: 139px;
+            padding-right: 165px;
+            box-sizing: border-box;
+            padding-bottom: 75px;
+        }
+    
+        .city{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18.15px;
+            letter-spacing: 0.05em;
+            text-align: left;
+            padding-right: 10px;
+        }
+        .name{
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 29.05px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            padding-top: 5px;
+
+        }
+        
+        .location{
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+       
+       
+        .note {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #474747;
+        }
+        .section4 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url(Group\ 64.png);
+        
+        }
+        .note1 {
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.02em;
+            text-align: left;
+
+        }
+        .tt{
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 38.73px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            color: #242120;
+        }
+        .right{
+            padding-left: 123px;
+            padding-top:136px ;
+            width: 50%;
+            padding-right: 172px;
+        }
+        .um{
+            padding-right: 62px;
+            padding-top:98px ;
+        }
+        .five{
+            display: flex;
+            background-image: url(main-banner.png);
+            justify-content: space-between;
+            margin-top: 75px;
+            padding-right: 169px;
+            padding-left: 165px;
+        }
+       
+        .wh{
+            margin-left:500px;
+            padding-bottom: 40px;
+        }
+        
+        .chi{
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #FFFFFF;
+            width: 300px;
+            height: 40px;
+            top: 5207px;
+            left: 819px;
+            gap: 0px;
+            opacity: 0px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+        .head{
+            font-family: Inter;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            color: #FFFFFF;
+            padding-top: 40px;
+            width: 452px;
+            height: 80px;
+            top: 5111px;
+            left: 819px;
+            gap: 0px;
+            opacity: 0px;
+        }
+       
+        .sub{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 368px;
+            width: Hug (119px)px;
+            height: Fixed (42px)px;
+            top: 5283px;
+            left: 1063px;
+            padding: 8px 24px 8px 24px;
+            gap: 10px;
+            border-radius: 4px 0px 0px 0px;
+            opacity: 0px;
+            /* box-shadow: 1px 4px 8px 0px #EF580333; */
+            background-image: url(search-bar.png);
+        }
+        
+        .email{
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+            color: #FFFFFF;
+            background-color:grey;
+            border: none;
+        }
+        .bt{
+            width: Hug (119px)px;
+            height: Fixed (42px)px;
+            top: 5283px;
+            left: 1063px;
+            padding: 8px 24px 8px 24px;
+            gap: 10px;
+            border-radius: 4px 0px 0px 0px;
+            opacity: 0px;
+            background-color: #FFFFFF;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 15.23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #242120;
+        }
+        .phone{
+            position: absolute;
+            top: 3968px;
+            padding-left: 0;
+        }
+        .last{
+            background-image: url(Rectangle\ 56.png);
+            display: flex;
+            justify-content: space-between;
+            padding-left: 139px;
+            padding-right: 165px;
+            box-sizing: border-box;
+            padding-top: 86px;
+        }
+        .df{
+            display: flex;
+            justify-content: space-between;
+            gap: 80px;
+        }
+        .tail { font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.75px;
+        text-align: left;
+        color: #FFFFFF;
+        }
+        h4 {
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+        .fix {
+            width: 50%;
+        }
+
+        
+   
+        @media screen and (max-width: 478px){
+            .nav-group, .sub-nav {
+                display: none;
+            }  
+            .vasiti-logo {
+                margin: 0;
+                padding-top: 47px;
+                padding-left: 32px;
+                padding-right: 209px;
+            }
+            .nav-bar-landing{
+               padding: 0;
+            }
+            .section1, .section2 {
+                display: block;
+                padding: 0px;
+                margin: 0;
+               
+            }
+            h1{
+                font-family: Inter;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                color: #000;
+                padding-left: 32px;
+                padding-right: 5px;
+            }
+            p {
+                font-family: Inter;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 31px;
+                letter-spacing: 0.02em;
+                text-align: left;
+                color: #494949;
+                padding-left: 32px;
+            }
+            .one {
+                padding: 0;
+                width: 100%;
+            }
+            .one img {
+                width: 100%;
+            } 
+            .container {
+                max-width: 414px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h2 {
+                padding: 104px 132px 0px 62px;
+                width: 220px;
+                height: 29px;
+                font-size: 20px;
+            }
+            .two {
+                width: 100%;
+            }
+            p.two {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                text-align: left;
+                padding-left: 30px;
+                padding-right: 27px;
+                box-sizing: border-box;
+            }
+            .qrt {
+                font-family: Inter;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 15.73px;
+                letter-spacing: 0.02em;
+                text-align: left;
+                width: 76px;
+                padding: 0px 0px 10px 62px;
+            }
+            .ano {
+                font-family: Inter;
+                font-size: 11px;
+                font-weight: 500;
+                line-height: 32px;
+                letter-spacing: 0.2em;
+                text-align: left;
+                border: none;
+                text-transform: uppercase;
+                padding-left: 62px;
+                padding-right: 57px;
+            }
+            .wtn{
+            display:block;
+            padding-top: 75px;
+            padding-left: 32px;
+            padding-right: 41px;
+            }
+    
+            .city{
+                color: #535353;
+                font-family: Inter;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 18.15px;
+                letter-spacing: 0.05em;
+                text-align: left;
+            }
+            .name{
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 29.05px;
+                letter-spacing: 0.02em;
+                text-align: left;
+                color:#474747;
+                
+            }
+            
+            .location{
+                display: flex;
+                align-items: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        
+            .note {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                text-align: left;
+                color: #474747;
+                padding-bottom: 75px;
+            }
+            .section4 {
+                display: block;
+             
+            }
+            .um {
+                padding-left: 67px;
+                padding-right: 66px;
+            }
+            .right {
+                padding-left: 59px;
+                padding-right: 66px; 
+            }
+            .tt {
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 29.05px;
+                letter-spacing: 0.01em;
+                text-align: left;
+
+            }
+            .an {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 32px;
+                text-transform: capitalize;
+                letter-spacing: 0.2em;
+                text-align: left;
+                color: #FF5C00;
+                width: 295px;
+                height: 37.2px;
+            }
+            /* .pix {
+                width: 295px;
+                height: 10.2px;
+            } */
+            .five {
+                display: block;
+            }
+            .phone{
+                position: absolute;
+                top: 10700px;
+                padding-left: 16px;
+                /* padding-right: 17px; */
+                width: 100%;
+            }
+            .phone img {
+                width: 100%;
+            }
+            .wh {
+                margin: 0%;
+                padding-top: 71px;
+                padding-left: 16px;
+                padding-right: 17px;
+            }
+            .head {
+                font-family: Inter;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: -0.03em;
+                text-align: left;
+                width: 310px;
+            }
+            .chi {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.02em;
+                text-align: left;
+            }
+            .email{
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.41px;
+                text-align: left;
+            }
+            .bt {
+                font-family: Roboto;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 15.23px;
+                letter-spacing: 0.02em;
+                text-align: center;
+            }
+            .five {
+                padding: 0;
+            }
+            .sub {
+                width: 380.78px;
+                padding: 0;
+                justify-content: start;
+                width: 200px;
+            }
+            .last {
+                display: block;
+                padding: 0;
+            }
+            .df{
+                display: flex;
+                justify-content: space-between;
+                padding-left: 16px;
+                padding-right: 12px;
+                gap: 0px;
+            }
+            .tr {
+                padding-left: 16px;
+                padding-right: 12px;
+                padding-top: 40px;
+            }
+            .tail {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 18.75px;
+                text-align: left;
+            }
+            h4 {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.41px;
+                text-align: left;
+            }
+            .fix {
+                width: 100%;
+            }
+        }
+
+      
+    
+    </style>
+</head>
+<body>
+    <div class="nav-bar-landing container">
+        <img src="-1.png" alt="" class="vasiti-logo">
+        <div class="nav-group">
+            <div class="nav">
+                <div class="nav-link">ABOUT US</div>
+                <div class="nav-link">STORIES</div>
+                <div class="nav-link">CONTACT</div>
+                <div class="nav-link">LOG IN</div>
+            </div>
+            <button class="signup">SIGN UP</button>
+        </div>
+    </div>
+    <div class=" container nav-bar-landing">
+        <div class="sub-nav">
+            <div class="nav-link">MARKETPLACE</div>
+            <div class="nav-link">WHOLESALE CENTER</div>
+            <div class="nav-link">SELLER CENTER</div>
+            <div class="nav-link">SERVICES</div>
+            <div class="nav-link">INTERNSHIPS</div>
+            <div class="nav-link">EVENTS</div>
+        </div>
+    </div>
+    <section class="container">
+        <div class="section1">
+            <div class="one">
+                <h1>    Amazing
+                    Experiences from Our Wonderful Customers
+                </h1>
+                <p>
+                    Here is what customers and vendors are saying about us,
+                    you can share your stories with us too.
+                </p>
+            </div>
+            <div class="one">
+            <img src="Group 81.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <section class="section2">
+            <div class="one">
+                <img src="Group 89.png" alt="">
+                </div>
+            <div class="one">
+                <h2>   Tolu & Joy’s Experience
+                </h2>
+                <br>
+                <div class="qrt">
+                 CUSTOMER
+                </div>
+                <p class="two">
+                    I had the best experience shopping with vasiti. 
+                    Usability of the website was great, very good customer service,
+                    an all round great experience. 
+                    I would definately be coming back! I had the best experience shopping with vasiti. 
+                    Usability of the website was great, very good customer service,
+                    an all round great experience. I would definately be coming back!
+                </p>
+                <div class="ano">
+                    Share your own story!
+                    <div class="pix"><img src="Vector 5.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="wtn">
+            <div class="fl">
+                <div>
+                    <img src="Ellipse 22.png">
+                </div>
+                <div class="name">
+                    Joseph Ike
+                </div>
+                <div class="location">
+                    <div class="city">In Ikeja</div>
+                    <div><img src="TAG.png" alt=""></div>
+                </div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt
+                    mollit dolore cillum minim tempor enim. 
+                    Elit aute irure tempor cupidatat incididunt sint deserunt ut 
+                    voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis
+                    ea quis id quis ad et. Sunt qui esse pariatur duis deserunt 
+                    mollit dolore cillum minim tempor enim.
+                </div>
+            </div>
+            <div class="fl">
+                <div>
+                    <img src="Ellipse 23.png">
+                </div>
+                <div class="name">
+                    Adetola Fashina
+                </div>
+                <div class="location">
+                    <div class="city"> Ibadan</div>
+                    <div><img src="TAG.png" alt=""></div>
+                </div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deser
+                    unt ut voluptate aute id deserunt nisi.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </div> 
+            <div class="fl">
+                <div>
+                    <img src="Ellipse 24.png">
+                </div>
+                <div class="name">
+                    Emmanuel Fayemi
+                </div>
+                <div class="location">
+                    <div class="city">In Akoko</div>
+                    <div><img src="TAG.png" alt=""></div>
+                </div>
+                <div class="note">
+                        Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                        Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. 
+                        Elit aute irure tempor cupidatat incididunt 
+                        sint deserunt ut voluptate aute id deserunt nisi.
+                        Elit aute irure tempor cupidatat incididunt 
+                        deser unt ut voluptate aute id deserunt nisi.
+                        Amet minim mollit non deserunt ullamco est sit 
+                        aliqua dolor do amet sint.
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="wtn">
+            <div class="fl">
+                <div>
+                    <img src="d.png">
+                </div>
+                <div class="name">
+                    Chisom Obilor
+                </div>
+                <div class="location">
+                    <div class="city">In Magado</div>
+                    <div><img src="t.png" alt=""></div>
+                </div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                </div>
+            </div>
+            <div class="fl">
+                <div>
+                    <img src="Ellipse 23 (1).png">
+                </div>
+                <div class="name">
+                    Adunoluwa Adeyemi
+                </div>
+                <div class="location">
+                    <div class="city"> Iwo Road</div>
+                    <div><img src="t.png" alt=""></div>
+                </div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deser
+                    unt ut voluptate aute id deserunt nisi.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </div>
+                
+            </div> 
+            <div class="fl">
+                <div>
+                    <img src="Ellipse 24 (1).png">
+                </div>
+                <div class="name">
+                Chidi Okeke
+                </div>
+                <div class="location">
+                    <div class="city">In Somolu</div>
+                    <div><img src="t.png" alt=""></div>
+                </div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                    Elit aute irure tempor cupidatat incididunt sint deser unt ut voluptate aute id deserunt nisi. 
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <div class="container">
+        <section class="section4">
+            <div class="right">
+                <div class="tt">
+                    Victoria’s Experience
+                </div>
+                <div><img src="tag.png" alt=""></div>
+                <div class="note1">
+                    I had the best experience shopping 
+                    with vasiti. Usability of the website 
+                    was great, very good customer 
+                    service, an all round great experience. 
+                    I would definately be coming back! I 
+                    had the best experience shopping with 
+                    vasiti. Usability of the website was 
+                    great, very good customer service, an 
+                    all round great experience. I would 
+                    definately be coming back!
+                </div>
+                <div class="an">
+                    Share your own story!
+                    <div class="pix"><img src="Vector 5.png" alt=""></div>
+                </div>
+            </div>
+            <div class="three um">
+                <img src="woman-shoppingbag-card 1.png" alt="">
+            </div>
+            
+        </section>
+    </div>
+    <div class="container">
+        <section class="wtn">
+            <div class="fl">
+                <div>
+                    <img src="e1.png">
+                </div>
+                <div class="name">
+                    Temi Obadofin
+                </div>
+                <div><img src="t.png" alt=""></div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                </div>
+            </div>
+            <div class="fl">
+                <div>
+                    <img src="e2.png">
+                </div>
+                <div class="name">
+                    Promise Ejiofor
+                </div>
+                <div><img src="t.png" alt=""></div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. 
+                    Elit aute irure tempor cupidatat incididunt sint deser
+                    unt ut voluptate aute id deserunt nisi.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </div> 
+            <div class="fl">
+                <div>
+                    <img src="e3.png">
+                </div>
+                <div class="name">
+                    Feyisola Arinola
+                </div>
+                <div><img src="t.png" alt=""></div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                    Elit aute irure tempor cupidatat incididunt sint deser unt ut voluptate aute id deserunt nisi. 
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="wtn">
+            <div class="fl">
+                <div>
+                    <img src="e4.png">
+                </div>
+                <div class="name">
+                    Karen Ibeh
+                </div>
+                <div><img src="t.png" alt=""></div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                </div>
+            </div>
+            <div class="fl">
+                <div>
+                    <img src="e5.png">
+                </div>
+                <div class="name">
+                    Oluchi Uzo
+                </div>
+                <div><img src="t.png" alt=""></div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. 
+                    Elit aute irure tempor cupidatat incididunt sint deser
+                    unt ut voluptate aute id deserunt nisi.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </div> 
+            <div class="fl">
+                <div>
+                    <img src="e6.png">
+                </div>
+                <div class="name">
+                    Amos Okafor
+                </div>
+                <div><img src="t.png" alt=""></div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                    Elit aute irure tempor cupidatat incididunt sint deser unt ut voluptate aute id deserunt nisi. 
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+       <div class="five">
+            <div class="phone three">
+                <img src="subscribe-banner 1.png" alt="">
+            </div>
+            <div class="fix">            
+            <div class="wh">
+                    <div class="head">
+                        Be a  member
+                        of our community 🎉
+                    </div>
+                    <div class="chi">We’d make sure you’re always first to know what’s 
+                        happening on Vasiti—thus, the world.
+                    </div>
+                    <div class="sub">
+                        <div><input class="email" type="email " value="enter email"></div>
+                        <div><button class="bt">subscribe</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="last">
+            <div class="df">
+                <div class="snr ty">
+                    <div class="tail">Company</div>
+                    <h4>About Us</h4>
+                    <h4>Term of Use</h4>
+                    <h4>Privacy Policy</h4>
+                    <h4>Press and Media</h4>
+                </div>
+                <div class="snr">
+                    <div class="tail">Product</div>
+                    <h4>Marketplace</h4>
+                    <h4>Magazine</h4>
+                    <h4>saller</h4>
+                    <h4>Wholesale</h4>
+                    <h4>Services</h4>
+                </div>
+            </div>
+            <div class="df">
+                <div class="snr">
+                    <div class="tail">Careers</div>
+                    <h4>Become a Vasiti Influencer</h4>
+                    <h4>Become a Campus writer</h4>
+                    <h4>Become a Campus Rep</h4>
+                    <h4>Become an Affiliate</h4>
+                </div>
+                <div class="snr">
+                    <div class="tail">Get in touch</div>
+                    <h4>Contact us</h4>
+                    <h4>Patner with us</h4>
+                    <h4>Advertise with us</h4>
+                    <h4>Help/FAQs</h4>
+                </div>
+            </div>
+            <div class="snr tr">
+                <div class="tail">Join our community</div>
+                <img src="sm-icons.png" alt="">
+                <h4>Email Newsletter</h4>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>                                                                                                                                                             

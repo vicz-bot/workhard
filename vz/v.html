@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* padding-left: 80px;
+            padding-right: 80px; */
+            margin: 0;                    
+        }
+           
+        .container1{
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+        
+        .navbar{
+            
+            background-color: #fff;
+        }
+        
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        } 
+        
+        li{
+            list-style: none;
+            display: inline-block;
+            text-transform: uppercase;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 15.23px;
+            letter-spacing: 0.05em;
+            text-align: center;
+            padding-right: 15px;
+        } 
+
+        li a{
+            margin: right 25px;
+            /* font-family:'Segoe UI', Tahoma, Geneva,
+            Verdana, sans-serif */
+            text-decoration: none;
+            color: black;
+        }
+       
+        .btn{
+            background: #FF5C00;
+            width: 84.16px;
+            height: 32px;
+            top: 24px;
+            left: 1176px;
+            gap: 0px;
+            opacity: 0px;
+            border: none;
+
+        }
+       
+        .btn a{
+            text-decoration: none;
+            color: #FFFFFF;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 15.23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+
+        }
+       
+        .nav2 li{
+            text-align: left;
+            margin-left: 80px;
+            text-transform: uppercase;
+
+        }
+       
+        .nav2{
+            padding-left: 231px;
+            padding-right: 317px;
+        }
+       
+        .nav2 a{
+            justify-content: center;
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 15.23px;
+            letter-spacing: 0.05em;
+        }
+        
+        .yt{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .section1{
+            display: flex;
+            /* height: 568px; */
+            top: 158px;
+            left: 173px;
+            gap: 0px;
+            opacity: 0px;
+            margin-left: 80px;
+            margin-right: 80px;
+            }
+        
+        .one{
+            width: 50%;
+            padding-top: 15px;
+            padding-right: 25px;
+            box-sizing: border-box;
+            }
+        
+        .one img{
+                width: 100%;
+            }
+        h1{
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            padding-top: 80px;
+        }
+        
+        p{
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: 0.02em;
+            text-align: left;
+        }
+        .section2{
+            display: flex;
+            /* height: 568px; */
+            top: 158px;
+            left: 173px;
+            gap: 0px;
+            opacity: 0px;
+            background-image: url(Rectangle\ 17.png);
+            background-position-y: top;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        h2{
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 38.73px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            color: #fff;
+        
+        }
+        .section2 p{
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: fff;
+        }
+        
+        .two{
+            color: #fff;
+            width: 50%;
+        }
+        
+        .two img{
+            width: 100%;
+        }
+        .three{
+            width: 50%;
+            padding-top:0px;
+            box-sizing: border-box;
+        }
+        
+        .three img{
+            width: 100%;
+        }
+        .section3{
+            padding-top: 20px;
+        }
+        .section4{
+            display: flex;
+            height: 568px;
+            top: 158px;
+            left: 173px;
+            gap: 0px;
+            opacity: 0px;
+            background-image: url(Group\ 64.png);
+            background-position-y: top;
+            z-index: index 1;
+            justify-content: space-between;
+            margin-top: 75px;
+            padding-left: 130px;
+            padding-right: 65px;
+        }
+        .four{
+            margin-left: 80px;
+            padding-top: 40px;
+            width: 50%;
+        }
+        .city{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18.15px;
+            letter-spacing: 0.05em;
+            text-align: left;
+            padding-right: 10px;
+        }
+        .name{
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 29.05px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            padding-top: 5px;
+
+        }
+        
+        .location{
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+       
+        .fl{
+            width: 300px;
+                
+        }
+        
+        .wtn{
+            width: 100%;
+            justify-content: space-between;
+            display:inline-flex;
+            padding-top: 75px;
+            padding-left: 139px;
+            padding-right: 165px;
+            box-sizing: border-box;
+        }
+        
+        .five{
+            display: flex;
+            background-image: url(main-banner.png);
+            justify-content: space-around;
+            margin-top: 75px;
+            padding-right: 169px;
+            padding-left: 165px;
+        }
+       
+        .wh{
+            margin-left: 500px;
+            padding-bottom: 40px;
+        }
+        
+        .chi{
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #FFFFFF;
+            width: 300px;
+            height: 40px;
+            top: 5207px;
+            left: 819px;
+            gap: 0px;
+            opacity: 0px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+        .head{
+            font-family: Inter;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            color: #FFFFFF;
+            padding-top: 40px;
+            width: 452px;
+            height: 80px;
+            top: 5111px;
+            left: 819px;
+            gap: 0px;
+            opacity: 0px;
+        }
+       
+        .sub{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 368px;
+            width: Hug (119px)px;
+            height: Fixed (42px)px;
+            top: 5283px;
+            left: 1063px;
+            padding: 8px 24px 8px 24px;
+            gap: 10px;
+            border-radius: 4px 0px 0px 0px;
+            opacity: 0px;
+            /* box-shadow: 1px 4px 8px 0px #EF580333; */
+            background-image: url(search-bar.png);
+        }
+        
+        .email{
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+            color: #FFFFFF;
+            background-color:grey;
+            border: none;
+        }
+        .bt{
+            width: Hug (119px)px;
+            height: Fixed (42px)px;
+            top: 5283px;
+            left: 1063px;
+            padding: 8px 24px 8px 24px;
+            gap: 10px;
+            border-radius: 4px 0px 0px 0px;
+            opacity: 0px;
+            background-color: #FFFFFF;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 15.23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #242120;
+        }
+       
+        .last{
+            background-image: url(Rectangle\ 56.png);
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+            padding-left: 139px;
+            padding-right: 165px;
+            box-sizing: border-box;
+        }
+        
+        .snr{
+            color: #fff;
+            /* padding-left: 80px;
+            padding-right: 80px; */
+            padding-top: 40px;
+        }
+       
+        .last div{
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+
+        }
+        
+        .tail{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18.75px;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+       
+        h4{
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.41px;
+            text-align: left;
+
+        }
+        
+        .phone{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 3960px;
+            left: 180px;
+            gap: 0px;
+            opacity: 0px;
+        }
+        .right {
+            width: 100%;
+            padding-top: 15px;
+            padding-right: 25px;
+            box-sizing: border-box;
+        }
+        
+        @media screen and (max-width: 478px) {
+            /* body {
+                margin-left: 32px;
+                margin-right: 47px;
+            } */
+            .navdiv {
+                display: block;
+                margin-top: 47px;
+               margin-left: 32px;
+                margin-right: 32px;
+            }
+
+            .nav2 {margin-top: 47px;
+               margin-left: 32px;
+                margin-right: 32px;
+                padding-left: 104px;
+                padding-right: 317px;
+            }
+            
+            .nav2 a{
+            justify-content: center;
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0.05em;
+            }
+
+            .yt {
+                display: block;
+            }
+
+            .section1 {
+                display: block;
+            }
+            .one {
+                width: 100%;
+            }
+            /* .one img {
+            width: 100%;
+            margin: 0;
+            } */
+            .three {
+                /* margin-top: 67px; */
+               margin-left: 32px;
+                margin-right: 59px;
+                width: 100%;
+            }
+            h1 {
+                font-family: Inter;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: -0.02em;
+                text-align: left;
+
+            }
+            p {
+                font-family: Inter;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 31px;
+                letter-spacing: 0.02em;
+                text-align: left;
+            }
+            .section2 {
+                display: block;
+            }
+            .wtn{
+                display: block;
+            }
+           
+            .f1{
+                width: 200px;
+            }
+            .name{
+                font-size: 20px;
+            }
+            .note{
+                width: 180px;
+            }
+            .section4 {
+                display: block;
+            }
+            .two {
+                width: 100%;
+            }
+            .five {
+                display: block;
+            }
+            .phone{
+                width: 50%;
+                height: 50px;
+                position: absolute;
+                top: 9440px;
+                padding-top: 15px;
+                left: inherit;
+            }
+            .phone img {
+                width: 100%;
+            }
+            .wh {
+                margin: 0;
+                padding: 0;
+            }
+            .head {
+                padding-top: 80px;
+                height: 0;
+                font-size: 11px;
+                padding-bottom: 15px;
+            }
+            .chi {
+                width: 200px;
+                font-size: 8px;
+                letter-spacing: 0.01em;
+            }
+            .sub {
+                display: block;
+                width: 100%;
+            }
+            .right {
+            width: 300px;
+            padding-top: 15px;
+            padding-right: 110px;
+            box-sizing: border-box;
+        }
+        .last {
+            display: block;
+        }
+         
+        }
+     
+
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <nav class="navbar">
+            <div class="navdiv">
+            <div class="logo"><img src="-1.png" alt="img"></div>
+                <ul>
+                    <li><a href>Home</a></li>
+                    <li><a href>Contact</a></li> 
+                    <li><a href>About</a></li>
+                    <li><a href>Log in</a></li>
+                    <button class="btn"><a href>SIGN UP</a></button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <nav class="nav2">
+        <div class="yt">
+            <div><a href>Market Place</a></div>
+            <div><a href>Whole saller</a></div>
+            <div><a href>Saller Center</a></div>
+            <div><a href>Services</a></div>
+            <div><a href>Internships</a></div>
+            <div><a href>Events</a></div>
+        </div>
+    </nav>
+    <section class="section1">
+        <div class="three">
+            <h1>    Amazing
+                Experiences from Our Wonderful Customers
+            </h1>
+            <p>
+                Here is what customers and vendors are saying about us,
+                you can share your stories with us too.
+            </p>
+        </div>
+        <div class="one">
+        <img src="Group 81.png" alt="">
+        </div>
+    </section>
+    <section class="section2">
+        <div class="three">
+            <img src="Group 89.png" alt="">
+            </div>
+        <div class="three">
+            <h2>   Tolu & Joy’s Experience
+            </h2>
+            <br>
+            <p style="color: #fff;
+            font-family: Inter;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 15.73px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            ;">CUSTOMER</p>
+            <p class="two">
+                    I had the best experience shopping with vasiti. 
+                    Usability of the website was great, very good customer service,
+                    an all round great experience. 
+                    I would definately be coming back! I had the best experience shopping with vasiti. 
+                    Usability of the website was great, very good customer service,
+                    an all round great experience. I would definately be coming back!
+            </p>
+        </div>
+    </section>
+    <section class="wtn">
+        <div class="fl">
+            <div>
+                <img src="Ellipse 22.png">
+            </div>
+            <div class="name">
+                Joseph Ike
+            </div>
+            <div class="location">
+                <div class="city">In Ikeja</div>
+                <div><img src="TAG.png" alt=""></div>
+            </div>
+            <div class="note">
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt
+                mollit dolore cillum minim tempor enim. 
+                Elit aute irure tempor cupidatat incididunt sint deserunt ut 
+                voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis
+                ea quis id quis ad et. Sunt qui esse pariatur duis deserunt 
+                mollit dolore cillum minim tempor enim.
+            </div>
+        </div>
+        <div class="fl">
+            <div>
+                <img src="Ellipse 23.png">
+            </div>
+            <div class="name">
+                Adetola Fashina
+            </div>
+            <div class="location">
+                <div class="city"> Ibadan</div>
+                <div><img src="TAG.png" alt=""></div>
+            </div>
+            <div class="note">
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                Elit aute irure tempor cupidatat incididunt sint deser
+                unt ut voluptate aute id deserunt nisi.
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+            </div>
+        </div> 
+        <div class="fl">
+            <div>
+                <img src="Ellipse 24.png">
+            </div>
+            <div class="name">
+                Emmanuel Fayemi
+            </div>
+            <div class="location">
+                <div class="city">In Akoko</div>
+                <div><img src="TAG.png" alt=""></div>
+            </div>
+            <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. 
+                    Elit aute irure tempor cupidatat incididunt 
+                    sint deserunt ut voluptate aute id deserunt nisi.
+                    Elit aute irure tempor cupidatat incididunt 
+                    deser unt ut voluptate aute id deserunt nisi.
+                    Amet minim mollit non deserunt ullamco est sit 
+                    aliqua dolor do amet sint.
+            </div>
+        </div>
+    </section>
+    <section class="wtn">
+        <div class="fl">
+            <div>
+                <img src="d.png">
+            </div>
+            <div class="name">
+                Chisom Obilor
+            </div>
+            <div class="location">
+                <div class="city">In Magado</div>
+                <div><img src="t.png" alt=""></div>
+            </div>
+            <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+            </div>
+        </div>
+        <div class="fl">
+            <div>
+                <img src="Ellipse 23 (1).png">
+            </div>
+            <div class="name">
+                Adunoluwa Adeyemi
+            </div>
+            <div class="location">
+                <div class="city"> Iwo Road</div>
+                <div><img src="t.png" alt=""></div>
+            </div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deser
+                    unt ut voluptate aute id deserunt nisi.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </div>
+        </div> 
+        <div class="fl">
+            <div>
+                <img src="Ellipse 24 (1).png">
+            </div>
+            <div class="name">
+            Chidi Okeke
+            </div>
+            <div class="location">
+                <div class="city">In Somolu</div>
+                <div><img src="t.png" alt=""></div>
+            </div>
+            <div class="note">
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                Elit aute irure tempor cupidatat incididunt sint deser unt ut voluptate aute id deserunt nisi. 
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </div>
+        </div>
+
+    </section>
+    <section class="section4">
+        <div class="two">
+            <img src="woman-shoppingbag-card 1.png" alt="">
+        </div>
+        <div class="right">
+            <div>
+                Victoria’s Experience
+            </div>
+            <div><img src="tag.png" alt=""></div>
+            <div>
+                I had the best experience shopping 
+                with vasiti. Usability of the website 
+                was great, very good customer 
+                service, an all round great experience. 
+                I would definately be coming back! I 
+                had the best experience shopping with 
+                vasiti. Usability of the website was 
+                great, very good customer service, an 
+                all round great experience. I would 
+                definately be coming back!
+            </div>
+            <img src="Group 47.png" alt="" width="200px">
+        </div>
+        
+    </section>
+    <section class="wtn">
+        <div class="fl">
+            <div>
+                <img src="e1.png">
+            </div>
+            <div class="name">
+                Temi Obadofin
+            </div>
+            <div><img src="t.png" alt=""></div>
+            <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                    Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+            </div>
+        </div>
+        <div class="fl">
+            <div>
+                <img src="e2.png">
+            </div>
+            <div class="name">
+                Promise Ejiofor
+            </div>
+            <div><img src="t.png" alt=""></div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. 
+                    Elit aute irure tempor cupidatat incididunt sint deser
+                    unt ut voluptate aute id deserunt nisi.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </div>
+        </div> 
+        <div class="fl">
+            <div>
+                <img src="e3.png">
+            </div>
+            <div class="name">
+                Feyisola Arinola
+            </div>
+            <div><img src="t.png" alt=""></div>
+            <div class="note">
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                Elit aute irure tempor cupidatat incididunt sint deser unt ut voluptate aute id deserunt nisi. 
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </div>
+        </div>
+    </section>
+    <section class="wtn">
+        <div class="fl">
+            <div>
+                <img src="e4.png">
+            </div>
+            <div class="name">
+                Karen Ibeh
+            </div>
+            <div><img src="t.png" alt=""></div>
+            <div class="note">
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+            </div>
+        </div>
+        <div class="fl">
+            <div>
+                <img src="e5.png">
+            </div>
+            <div class="name">
+                Oluchi Uzo
+            </div>
+            <div><img src="t.png" alt=""></div>
+                <div class="note">
+                    Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                    Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. 
+                    Elit aute irure tempor cupidatat incididunt sint deser
+                    unt ut voluptate aute id deserunt nisi.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </div>
+        </div> 
+        <div class="fl">
+            <div>
+                <img src="e6.png">
+            </div>
+            <div class="name">
+                Amos Okafor
+            </div>
+            <div><img src="t.png" alt=""></div>
+            <div class="note">
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. 
+                Elit aute irure tempor cupidatat incididunt sint deser unt ut voluptate aute id deserunt nisi. 
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </div>
+        </div>
+    </section>
+    <section class="five">
+        <div class="phone">
+            <img src="subscribe-banner 1.png" alt="">
+        </div>
+        <div class="fix">
+            <div class="wh">
+                <div class="head">
+                    Be a  member
+                    of our community 🎉
+                </div>
+                <div class="chi">We’d make sure you’re always first to know what’s 
+                    happening on Vasiti—thus, the world.
+                </div>
+                <div class="sub">
+                    <div><input class="email" type="email " value="enter email"></div>
+                    <div><button class="bt">subscribe</button></div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="last" >
+        <div class="snr ty">
+            <div class="tail">Company</div>
+            <h4>About Us</h4>
+            <h4>Term of Use</h4>
+            <h4>Privacy Policy</h4>
+            <h4>Press and Media</h4>
+        </div>
+        <div class="snr">
+            <div class="tail">Product</div>
+            <h4>Marketplace</h4>
+            <h4>Magazine</h4>
+            <h4>saller</h4>
+            <h4>Wholesale</h4>
+            <h4>Services</h4>
+        </div>
+        <div class="snr">
+            <div class="tail">Careers</div>
+            <h4>Become a Vasiti Influencer</h4>
+            <h4>Become a Campus writer</h4>
+            <h4>Become a Campus Rep</h4>
+            <h4>Become an Affiliate</h4>
+        </div>
+        <div class="snr">
+            <div class="tail">Get in touch</div>
+            <h4>Contact us</h4>
+            <h4>Patner with us</h4>
+            <h4>Advertise with us</h4>
+            <h4>Help/FAQs</h4>
+        </div>
+        <div class="snr tr">
+            <div class="tail">Join our community</div>
+            <img src="sm-icons.png" alt="">
+            <h4>Email Newsletter</h4>
+        </div>
+    </section>    
+</body>
+</html>
